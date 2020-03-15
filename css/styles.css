@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Prompt&display=swap');
 * {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -7,7 +9,26 @@
     -ms-box-sizing: border-box;
     font-family: 'Baloo Chettan 2', cursive;
 }
-
+/* font-family: 'Lobster', cursive; */
+/* font-family: 'Prompt', sans-serif; */
+#softmeals_text_one{
+    font-family: 'Lobster', cursive; 
+     font-size: 30px;   
+}
+.softmeals_text{
+    font-family: 'Lobster', cursive; 
+    color: #000;
+}
+.navbar-brand{
+    color: #fff;
+}
+.welcome_text{
+    font-family: 'Prompt', sans-serif;
+    font-size: 4rem;
+}
+#describe_softmeals{
+   letter-spacing: 4px;
+}
  ul{
     display: flex;
     flex-wrap: wrap;
@@ -16,6 +37,9 @@
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+}
+.our_special_coffee_text{
+    margin-bottom: 2rem;
 } 
 body{
 	overflow-x: hidden;
@@ -23,6 +47,7 @@ body{
 
 nav {
     background-color: #b5651d;
+   
 }
 
 ul li a{
@@ -31,13 +56,17 @@ ul li a{
 	height: 30px;
 	border-radius: 100px;
 	text-align: center;
-	color: #fff;
+
 	padding: 5px;
 }
-
+#home{
+    color: #fff;
+}
 .navbar .nav-item a.nav-link{
-	color: #000;
-	width: 100px;
+	color: #fff;color: #fff;
+    width: 150px;
+    font-size:  25px;
+    padding-bottom: 3rem;
 }
 
 .mobile-nav select{
@@ -78,10 +107,10 @@ video{
     padding-right: 2rem;
     /* margin-left: 12rem; */
 }
-h1{
+ h1{
     color:  #b5651d;
-    font-weight:900;
-}
+    font-weight:900; 
+ } 
 .our_values_div{
     
     background-color:   #b5651d;
