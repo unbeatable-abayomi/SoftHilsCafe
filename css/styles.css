@@ -165,8 +165,17 @@ video{
     /* line-height: 40px; */
     letter-spacing: .1px;
 }
-.collection{
-	background-image: url("../images/c5.jpg");
+.coffees{
+	background-image: url("../images/c2.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 450px;
+	padding: 13% 6%;
+	color: #eee;
+}
+.chocolates{
+	background-image: url("../images/c9.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -188,4 +197,18 @@ video{
 .testimonals{
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+.contan_table{
+    margin-top: 3rem;
+}
+
+thead tr th{
+    background-color: #b5651d;
+    color: #fff;
+    font-size: 25px;
+}
+
+td{
+    font-size: 23px; 
+    color: #b5651d;;
 }
