@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap');
+* {
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    font-family: 'Baloo Chettan 2', cursive;
+}
+
+ ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+	/* justify-content: flex-end; */
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+} 
+body{
+	overflow-x: hidden;
+}
+
+nav {
+    background-color: #b5651d;
+}
+
+ul li a{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	text-align: center;
+	color: #fff;
+	padding: 5px;
+}
+
+.navbar .nav-item a.nav-link{
+	color: #000;
+	width: 100px;
+}
+
+.mobile-nav select{
+	width: 100%;
+	height: 45px;
+	border: none;
+	border-radius: 4px;
+	background: #eee;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+
+video{
+    min-width: 100%;
+    min-height: 100%;
+    /* width: auto; */
+    /* height: auto; */
+    max-width: 400px;
+    max-height: 1300px;
+    /* background: url('./images/bg2.jpg')no-repeat; */
+    background-size: cover;
+}
+/* .video_div{
+    height: 700px;
+} */
+.section-navbar{
+    position: absolute;
+    margin-top: 7rem;
+  
+}
+.button-coffee{
+    display: block;
+}
+.sn{
+    width: 100%;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    /* margin-left: 12rem; */
+}
+h1{
+    color:  #b5651d;
+    font-weight:900;
+}
+.our_values_div{
+    
+    background-color:   #b5651d;
+}
+.newletter{
+	background-image: url("../images/c5.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 250px;
+	min-height: 330px;
+
+}
+.newletter_form{
+    padding-top: 10rem;
+}
