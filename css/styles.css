@@ -40,6 +40,9 @@
 }
 .our_special_coffee_text{
     margin-bottom: 2rem;
+}
+p{
+    margin: 0;
 } 
 body{
 	overflow-x: hidden;
@@ -100,19 +103,27 @@ video{
 }
 .button-coffee{
     display: block;
+    background-color: #b5651d;
+    color: #fff;
 }
 .sn{
     width: 100%;
     padding-left: 5rem;
     padding-right: 2rem;
+    margin-bottom: 5rem;
     /* margin-left: 12rem; */
 }
  h1{
     color:  #b5651d;
     font-weight:900; 
- } 
+ }
+ .newletter_txt{
+     color: #fff;
+ }
+ 
 .our_values_div{
-    
+    color: #fff;
+    padding-bottom: 4rem;
     background-color:   #b5651d;
 }
 .newletter{
@@ -125,5 +136,11 @@ video{
 
 }
 .newletter_form{
-    padding-top: 10rem;
+    padding-top: 8rem;
+}
+.footer_section{
+    padding-top: .5rem;
+    font-size: 20px;
+    background-color:   #b5651d;
+    color: #fff;
 }
