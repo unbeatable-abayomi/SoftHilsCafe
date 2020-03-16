@@ -29,6 +29,16 @@
 #describe_softmeals{
    letter-spacing: 4px;
 }
+a:hover{
+    color: #000;
+    text-decoration: none;
+    
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    
+}
  ul{
     display: flex;
     flex-wrap: wrap;
@@ -55,13 +65,16 @@ nav {
 
 ul li a{
 	display: inline-block;
-	width: 30px;
+	width: 90px;
 	height: 30px;
 	border-radius: 100px;
 	text-align: center;
 
 	padding: 5px;
 }
+/* ul li{
+    padding: 1rem;
+} */
 #home{
     color: #fff;
 }
@@ -211,4 +224,47 @@ thead tr th{
 td{
     font-size: 23px; 
     color: #b5651d;;
+}
+
+.address_text{
+    font-size: 30px;
+    padding-top: 2rem;
+}
+form{
+    font-size: 20px;
+}
+.button-coffee_only{
+   background-color: #b5651d;  
+}
+
+#about_us_bg{
+    display: none;
+}
+.welcome_text_mobile_div{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .about_us_bg_first{
+        display: none;
+    }
+    #describe_softmeals{
+        display: none;
+    }
+    #about_us_bg{
+        display: block;
+        font-size: 20px;
+        color: #b5651d;
+        font-weight: bold;
+    }
+    .dont_show{
+        display: none;
+    }
+    .welcome_text_mobile{
+        color: #b5651d;
+    }
+    .welcome_text_mobile_div{
+        display: block;
+        margin-top: -6rem;
+        color: #b5651d;
+    }
 }
